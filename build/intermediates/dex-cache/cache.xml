@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_63545c911fed1596abc5de0f5e49629c56548d26/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/.android/build-cache/761c93d19a10a9ea723b9d7672b4542f675a3c7b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ea1b69089f8b5f82a770d65f6cbc35674aa0fae6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/IdeaProjects/Test/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fc81bd4ee92d76a456d8c7b1280afeccd364e326">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c560e6b80da58253194abee2123234e7f74e69d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinvin/.android/build-cache/868ff421f27acb22e2cf92d5e123db5c5e8a1096/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/pre-dexed/debug/classes_a517b2020072cfd22765ba72228bc8f2e570f32a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinvin/.android/build-cache/761c93d19a10a9ea723b9d7672b4542f675a3c7b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/pre-dexed/debug/classes_ea1b69089f8b5f82a770d65f6cbc35674aa0fae6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinvin/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_63545c911fed1596abc5de0f5e49629c56548d26.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/.android/build-cache/868ff421f27acb22e2cf92d5e123db5c5e8a1096/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a517b2020072cfd22765ba72228bc8f2e570f32a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/.android/build-cache/499a81a211e236ed8e18bc7ca249a0d50623f0a7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_54957ab7f1b548cd8f9c2376b8f7f074671a0a21/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinvin/.android/build-cache/575b9c8c9dd1c0cbfab1abc1b65213c4a8ac272e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/pre-dexed/debug/classes_a0b7eca9bfcd2311a9dc7dc25c22fcf387f3a6a1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/.android/build-cache/85297bb9360efaa04e635f268b0755d20c5a2ee5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c7096b0e3b7a5bb4a06b52748fdc2194b6309a09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/.android/build-cache/575b9c8c9dd1c0cbfab1abc1b65213c4a8ac272e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a0b7eca9bfcd2311a9dc7dc25c22fcf387f3a6a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/IdeaProjects/Test/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4c5896e25f065edd72253261a046bcb2dc5857d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinvin/.android/build-cache/85297bb9360efaa04e635f268b0755d20c5a2ee5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/pre-dexed/debug/classes_c7096b0e3b7a5bb4a06b52748fdc2194b6309a09.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/.android/build-cache/d9cb9f0249a225853b940a0a6446efb27aba6e38/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_94203a62e2506a233ab18a1f1037059283c7c760/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/.android/build-cache/8c3766434047abdf225b94c9e35ea0fba3243b2f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4301a1bdc328fa1c66a36e87e798bc92dd0b6261/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinvin/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_197e69627152c31ffeb9a4785f72c652b57218ca.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/.android/build-cache/b80b54bbbb8acee9e8b2bdbff2d691f9760c418e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcae52a60bc07924d370b4d376116cd8f8581f54">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1a9bd828a9a721b7b710a4c12b89d18f902aae73/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_197e69627152c31ffeb9a4785f72c652b57218ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/.android/build-cache/dbf21e09b790e34aa16bf481ebfad386fbfd2675/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6a1e196d82c16ca34dbbdf2a664c2c7c1f12ef9c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinvin/.android/build-cache/dbf21e09b790e34aa16bf481ebfad386fbfd2675/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/pre-dexed/debug/classes_6a1e196d82c16ca34dbbdf2a664c2c7c1f12ef9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinvin/.android/build-cache/2028b3b313d799a5baff1d5cff0d6338ec50d9d5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/pre-dexed/debug/classes_f9dc512bdf153f5a0bf691c117b6ba5ecd810742.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/.android/build-cache/2028b3b313d799a5baff1d5cff0d6338ec50d9d5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f9dc512bdf153f5a0bf691c117b6ba5ecd810742/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/.android/build-cache/afb9aa1f674216ef7c54094a74a9203a4aee5809/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c3e3229aff9c188f8e6b4dd6ae15d97b814480e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/.android/build-cache/8233df633c95de5bea6aedde67b19754b57e5120/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_93f247e0d46a55df9833d029942ab9db141f8dda/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinvin/.android/build-cache/8c3766434047abdf225b94c9e35ea0fba3243b2f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/pre-dexed/debug/classes_4301a1bdc328fa1c66a36e87e798bc92dd0b6261.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinvin/.android/build-cache/8233df633c95de5bea6aedde67b19754b57e5120/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/pre-dexed/debug/classes_93f247e0d46a55df9833d029942ab9db141f8dda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinvin/.android/build-cache/afb9aa1f674216ef7c54094a74a9203a4aee5809/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/pre-dexed/debug/classes_c3e3229aff9c188f8e6b4dd6ae15d97b814480e9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/.android/build-cache/925c98d21f8c48b2b30363daa646bc4470838d84/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_20e5971f4a53b9e32da798029b794dfd2f32ad2f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinvin/.android/build-cache/925c98d21f8c48b2b30363daa646bc4470838d84/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/pre-dexed/debug/classes_20e5971f4a53b9e32da798029b794dfd2f32ad2f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vinvin/.android/build-cache/03c1026016f2ddcbd24bb18ef6a6e0065978449a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/home/vinvin/IdeaProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_120fb21e33a47175c181b01680a1a789f7f9b314/classes.dex" />
+    </item>
+
+</items>

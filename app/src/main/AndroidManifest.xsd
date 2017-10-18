@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="manifest" type="manifestType"/>
+  <xs:complexType name="applicationType">
+    <xs:sequence>
+      <xs:element type="activityType" name="activity"/>
+    </xs:sequence>
+    <xs:attribute ref="and:allowBackup" xmlns:and="http://schemas.android.com/apk/res/android"/>
+    <xs:attribute ref="and:icon" xmlns:and="http://schemas.android.com/apk/res/android"/>
+    <xs:attribute ref="and:label" xmlns:and="http://schemas.android.com/apk/res/android"/>
+    <xs:attribute ref="and:roundIcon" xmlns:and="http://schemas.android.com/apk/res/android"/>
+    <xs:attribute ref="and:supportsRtl" xmlns:and="http://schemas.android.com/apk/res/android"/>
+    <xs:attribute ref="and:theme" xmlns:and="http://schemas.android.com/apk/res/android"/>
+  </xs:complexType>
+  <xs:complexType name="uses-permissionType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute ref="and:name" xmlns:and="http://schemas.android.com/apk/res/android"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="manifestType">
+    <xs:sequence>
+      <xs:element type="uses-permissionType" name="uses-permission" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element type="applicationType" name="application">
+        <xs:annotation>
+          <xs:documentation>The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="package"/>
+  </xs:complexType>
+  <xs:complexType name="activityType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute ref="and:name" xmlns:and="http://schemas.android.com/apk/res/android"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:schema>
