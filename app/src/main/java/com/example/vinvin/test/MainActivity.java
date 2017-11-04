@@ -77,8 +77,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.about:
-                Toast.makeText(getApplicationContext(), "cyka", LENGTH_LONG).show();
+            case R.id.log:
+                LogView();
                 return true;
             case R.id.settings_id:
                 SettingsView();
@@ -87,12 +87,14 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     unregisterReceiver(receiver);
                     changeMenu(1);
+                    return true;
                 } catch (IllegalArgumentException e) {
                     createWifi();
                     changeMenu(0);
+                    return true;
                 }
             default:
-                return super.onOptionsItemSelected(item);
+                return true;
         }
     }
 
@@ -103,6 +105,10 @@ public class MainActivity extends AppCompatActivity {
         } else {
             turn_status.setTitle("Turn off");
         }
+    }
+    public void LogView(){
+        setContentView(R.layout.activity_log);
+
     }
 
     public void CheckStatus(CheckBox box0, CheckBox box1, CheckBox box2) {
@@ -123,14 +129,16 @@ public class MainActivity extends AppCompatActivity {
         accept_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //Should change in variables in algorithm
                 setContentView(R.layout.activity_main);
             }
         });
+
     }
 
     private void createWifi() {
         try {
-
+            //Registers the receiver and starts the network scan
             mainWifi = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
             mainWifi.setWifiEnabled(true);
 

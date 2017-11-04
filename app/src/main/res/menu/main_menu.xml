@@ -5,8 +5,8 @@
     android:layout_height="match_parent">
 
     <item
-        android:id="@+id/about"
-        android:title="About"
+        android:id="@+id/log"
+        android:title="Log"
         app:showAsAction="collapseActionView"
 
         />
