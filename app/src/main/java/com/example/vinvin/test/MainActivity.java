@@ -25,6 +25,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.OnMapReadyCallback;
 
 import java.util.List;
 
@@ -187,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
     public void Notification(){
         try {
             NotificationCompat.Builder mNotification = new NotificationCompat.Builder(this);
-            mNotification.setSmallIcon(R.drawable.common_google_signin_btn_icon_dark);
+            mNotification.setSmallIcon(R.mipmap.ic_launcher);
             mNotification.setLights(Color.GREEN, 3000, 3000);
             mNotification.setVibrate(new long[]{1000, 1000, 1000, 1000});
             mNotification.setSound(Settings.System.DEFAULT_NOTIFICATION_URI);
