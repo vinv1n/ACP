@@ -2,60 +2,90 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="fill_parent"
         android:text="Triggered!"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="30dp" />
 
-    <CheckBox
-        style="@style/TextAppearance.AppCompat.Widget.Button"
-        android:id="@+id/checkBox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/textlines"
-        android:layout_marginTop="50dp"
-        android:layout_weight="1"
-        android:text="Location 1" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:contentDescription="@string/des"
+        android:layout_height="310dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/linnanmaa" />
 
-    <CheckBox
-        android:id="@+id/checkBox2"
-        style="@style/TextAppearance.AppCompat.Widget.Button"
-        android:layout_width="394dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="@drawable/textlines"
-        android:text="Location 2" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
 
-    <CheckBox
-        style="@style/TextAppearance.AppCompat.Widget.Button"
-        android:id="@+id/checkBox3"
+        <CheckBox
+            android:id="@+id/checkBox"
+            style="@style/TextAppearance.AppCompat.Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/textlines"
+            android:text="Location 1" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            style="@style/TextAppearance.AppCompat.Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/textlines"
+            android:text="Location 2" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            style="@style/TextAppearance.AppCompat.Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/textlines"
+            android:text="Location 3" />
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/textlines"
-        android:layout_weight="1"
-        android:text="Location 3" />
-    <Button
-        style="@android:style/ButtonBar"
-        android:layout_marginTop="20dp"
-        android:id="@+id/exit_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Return"
-        android:textAlignment="center"/>
-    <Button
-        style="@android:style/ButtonBar"
-        android:id="@+id/accept_button"
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Accept"
-        android:textAlignment="center"
-        android:visibility="visible"/>
+        android:layout_height="fill_parent"
+        android:baselineAligned="true"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/accept_button"
+            style="@android:style/ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="Accept"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/exit_button"
+            style="@android:style/ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="Return"
+            android:textAlignment="center" />
+    </LinearLayout>
 
 </LinearLayout>

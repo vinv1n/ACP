@@ -22,8 +22,8 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.nio.file.OpenOption;
-import java.util.ArrayList;
+import com.google.android.gms.maps.GoogleMap;
+
 import java.util.List;
 
 import static android.widget.Toast.LENGTH_LONG;
@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView mainText;
     private static final int PERMISSION_TO_WIFI = 2;
     private Menu menu;
+    private GoogleMap Gmap;
 
     private BroadcastReceiver receiver = new BroadcastReceiver() {
         @Override
