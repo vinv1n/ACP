@@ -1,11 +1,14 @@
 package com.example.vinvin.test;
 
 import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.app.TaskStackBuilder;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
@@ -114,6 +117,13 @@ public class MainActivity extends AppCompatActivity {
     }
     public void LogView(){
         setContentView(R.layout.activity_log);
+        Button log_exit = (Button) findViewById(R.id.log_exit);
+        log_exit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setContentView(R.layout.activity_main);
+            }
+        });
 
     }
 
@@ -189,15 +199,32 @@ public class MainActivity extends AppCompatActivity {
     public void Notification(){
         try {
             NotificationCompat.Builder mNotification = new NotificationCompat.Builder(this);
-            mNotification.setSmallIcon(R.mipmap.ic_launcher);
+            mNotification.setSmallIcon(R.mipmap.ic_launcher_round, 3);
             mNotification.setLights(Color.GREEN, 3000, 3000);
             mNotification.setVibrate(new long[]{1000, 1000, 1000, 1000});
             mNotification.setSound(Settings.System.DEFAULT_NOTIFICATION_URI);
             mNotification.setContentTitle("Location found!");
+            mNotification.setContentText("Click to read more!");
+            mNotification.setColor(getResources().getColor(R.color.white));
+            mNotification.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher));
+            int notID = 001;
 
-            NotificationManager Notificationmanager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-            Notificationmanager.notify(0, mNotification.build());
+            NotificationCompat.InboxStyle inboxStyle = new NotificationCompat.InboxStyle();
+            mNotification.setStyle(inboxStyle);
+
+            NotificationManager Notificationmanager = (NotificationManager)
+                    getSystemService(NOTIFICATION_SERVICE);
+
+            Intent notificationIntent = new Intent(this, MainActivity.class);
+            PendingIntent content = PendingIntent.getActivity(this, 0,
+                    notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+            mNotification.setContentIntent(content);
+
+            Notificationmanager.notify(notID, mNotification.build());
+
         } catch (NullPointerException e){
+            Toast.makeText(getApplicationContext(), "Something went wrong",
+                    LENGTH_LONG).show();
             System.exit(1);
         }
     }
