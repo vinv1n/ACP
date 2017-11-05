@@ -1,18 +1,20 @@
 package com.example.vinvin.test;
 
+import android.app.NotificationManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
 import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -53,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
                     sb.append("SSID ");
                     sb.append(networks.get(i).SSID + "\n");
                 }
+                Notification();
                 mainText.setText(sb);
             }
 
@@ -179,6 +182,21 @@ public class MainActivity extends AppCompatActivity {
                     System.exit(0);
                 }
             }
+        }
+    }
+    public void Notification(){
+        try {
+            NotificationCompat.Builder mNotification = new NotificationCompat.Builder(this);
+            mNotification.setSmallIcon(R.drawable.common_google_signin_btn_icon_dark);
+            mNotification.setLights(Color.GREEN, 3000, 3000);
+            mNotification.setVibrate(new long[]{1000, 1000, 1000, 1000});
+            mNotification.setSound(Settings.System.DEFAULT_NOTIFICATION_URI);
+            mNotification.setContentTitle("Location found!");
+
+            NotificationManager Notificationmanager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+            Notificationmanager.notify(0, mNotification.build());
+        } catch (NullPointerException e){
+            System.exit(1);
         }
     }
 }
