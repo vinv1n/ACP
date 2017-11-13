@@ -60,8 +60,10 @@ public class MainActivity extends AppCompatActivity {
                     sb.append("SSID ");
                     sb.append(networks.get(i).SSID + "\n");
                 }
-                Notification();
-                mainText.setText(sb);
+                if(networks.size() > 0) {
+                    Notification();
+                    mainText.setText(sb);
+                }
             }
 
         }
